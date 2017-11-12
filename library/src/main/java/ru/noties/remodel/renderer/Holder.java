@@ -13,7 +13,7 @@ public class Holder extends RecyclerView.ViewHolder {
     }
 
     /**
-     * Helper method to automatically cast view to desired type. (Obsolete when targeting SDK >= 26)
+     * Helper method to automatically cast view to desired type. (Obsolete when targeting SDK &gt;= 26)
      *
      * @param id id of a view
      * @return found view

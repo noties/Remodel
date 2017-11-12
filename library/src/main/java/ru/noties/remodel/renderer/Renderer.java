@@ -35,7 +35,6 @@ public abstract class Renderer<T, H extends Holder> {
      *
      * @param item to obtain id from
      * @return id of supplied item
-     * @see android.support.v7.widget.RecyclerView#NO_ID
      */
     public long itemId(@NonNull T item) {
         return item.hashCode();
